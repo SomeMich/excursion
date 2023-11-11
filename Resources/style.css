@@ -5,6 +5,15 @@ html {
     font-weight: normal;
 }
 
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
 h1,
 h2 {
     color: white;
@@ -52,4 +61,5 @@ h4 {
 
 footer h4 {
     text-align: right;
+    margin-right: 10px;
 }
